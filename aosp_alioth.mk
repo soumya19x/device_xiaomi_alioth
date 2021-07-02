@@ -11,12 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Aosp stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inherit from alioth device
+$(call inherit-product, device/xiaomi/alioth/device.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED = true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
