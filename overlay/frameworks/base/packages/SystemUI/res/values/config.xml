@@ -47,4 +47,8 @@
         <item>0</item> <!-- 3: HIGH -->
         <item>0</item> <!-- 4: SUN -->
     </integer-array>
+
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+    <integer name="config_shift_interval">15</integer>
 </resources>
