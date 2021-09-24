@@ -19,6 +19,10 @@
     <!-- the padding on the top of the statusbar (usually 0), adding top padding to make it punch-hole camera symmetrical-->
     <dimen name="status_bar_padding_top">8px</dimen>
     
+    <!-- Returning this to the original PixelExperience values, the config gets a material dimens value, but google material in itself is ever changing, especially radiuses.-->
+    <dimen name="logout_button_corner_radius">2dp</dimen>
+    <dimen name="borderless_button_radius">2dp</dimen>
+    
     <dimen name="rounded_corner_content_padding">52px</dimen>
 
     <!-- Burn-in protection -->
