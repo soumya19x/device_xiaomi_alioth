@@ -16,6 +16,9 @@
 */
 -->
 <resources>
+    <!-- the padding on the top of the statusbar (usually 0), adding top padding to make it punch-hole camera symmetrical-->
+    <dimen name="status_bar_padding_top">8px</dimen>
+    
     <dimen name="rounded_corner_content_padding">52px</dimen>
 
     <!-- Burn-in protection -->
